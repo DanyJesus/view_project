@@ -1,0 +1,48 @@
+body {
+    font-family:black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.jogo {
+    border: 1px solid rgba(0, 107, 189, 0.71);
+    background-color: #F2f2f2;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+    -webkit-box-shadow: -2px -1px 31px -10px rgba(0, 107, 189, 0.71);
+    -moz-box-shadow: -2px -1px 31px -10px rgba(0, 107, 189, 0.71);
+    box-shadow: -2px -1px 31px -10px rgba(0, 107, 189, 0.71);
+}
+
+
+/* BOZ SHADOW DO CSS 
+    cssmatic.com/box-shadow
+    para criar como sera o boz shadow
+*/
+
+
+/*  Vue animations */
+.bounce-enter-active {
+    animation: bounce-in .5s;
+}
+
+.bounce-leave-active {
+    animation: bounce-in .5s reverse;
+}
+
+@keyframes bounce-in {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
